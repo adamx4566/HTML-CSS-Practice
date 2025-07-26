@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>13f</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .koszulka {
+        position: relative;
+        display: inline-block;
+      }
+      .discount {
+        position: absolute;
+        top: 15px;
+        right: 0px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 16px;
+        padding-bottom: 10px;
+        padding-right: 16px;
+      }
+      
+      .white {
+        position: absolute;
+        height: 120px;
+        width: 640px;
+        bottom: 0px;
+        background-color: rgba(255, 255, 255, 0.75);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .cart {
+        font-size: 18px;
+        padding-top: 8px;
+        padding-right: 16px;
+        padding-left: 16px;
+        padding-bottom: 8px;
+        border-color: black;
+        border: solid;
+        border-width: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="koszulka"> <div class="discount">
+        20% OFF
+      </div>
+      <div class="white">
+        <button class="cart">Add to Cart</button>
+      </div>
+     
+      <img src="/koszulka.jpg">
+      
+    </div>
+  </body>
+</html>
