@@ -5,8 +5,8 @@ This repository contains my practice files for learning and experimenting with H
 The repository will be updated over time as I continue learning and building new examples.
 
 <p>
-  <img src="assets/logos/html5-logo.svg" alt="HTML5 Logo" width="100"/>
-  <img src="assets/logos/css3-logo.png" alt="CSS3 Logo" width="100"/>
+  <img src="assets/logos/HTML5_Logo.svg" alt="HTML5 Logo" width="100"/>
+  <img src="assets/logos/CSS-3-logo-01.png" alt="CSS3 Logo" width="100"/>
 </p>
 
 ## Image Credits
