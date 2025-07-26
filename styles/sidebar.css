@@ -1,0 +1,106 @@
+.sidebar {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 55px;
+  background-color: white;
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+}
+.sidebar-link {
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.sidebar-link:hover {
+  background-color: rgb(235, 235, 235);
+}
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 4px;
+}
+.sidebar-link div {
+  font-size: 10px;
+}
+@media (max-width: 1200px) {
+      .sidebar {
+      position: fixed;
+      left: 0px;
+      bottom: 0px;
+      top: 55px;
+      background-color: white;
+      width: 72px;
+      z-index: 200;
+      padding-top: 5px;
+    }
+    .sidebar-link {
+      height: 74px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer;
+    }
+    .sidebar-link:hover {
+      background-color: rgb(235, 235, 235);
+    }
+    .sidebar-link img {
+      height: 24px;
+      margin-bottom: 4px;
+    }
+    .sidebar-link div {
+      font-size: 10px;
+    }
+}
+
+@media (min-width: 1200.1px) {
+  .sidebar {
+      position: fixed;
+      left: 0px;
+      bottom: 0px;
+      top: 55px;
+      background-color: white;
+      width: 300px;
+      z-index: 200;
+      padding-top: 5px;
+    }
+     .sidebar-link {
+      height: 50px;
+      display: flex;
+      justify-content: space;
+      align-items: center;
+      flex-direction: row;
+      cursor: pointer;
+      width: 300px;
+    }
+    .sidebar-link:hover {
+      background-color: rgb(235, 235, 235);
+    }
+    .sidebar-link img {
+      height: 30px;
+      margin-bottom: 4px;
+      align-items: start;
+    }
+    .sidebar-link div {
+      font-size: 15px;
+    }
+    .sidebar-resized1 {
+      width: 20px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      margin-top: 25px;
+    }
+    .sidebar-resized2 {
+      width: 160px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      margin-left: 40px;
+      margin-top: 25px;
+    }
+}
